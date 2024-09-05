@@ -1,22 +1,20 @@
 # Project4-CreditCardFraudDetection
-
-Credit Card Fraud Detection Project
 Overview
-This project focuses on detecting fraudulent credit card transactions using machine learning models. Credit card fraud detection is a critical area for financial institutions to reduce unauthorized transactions and minimize monetary losses. By analyzing historical transaction data, we aim to build a predictive model that classifies transactions as either fraudulent or legitimate.
+This project focuses on detecting fraudulent credit card transactions using machine learning models. Credit card fraud is a major issue for financial institutions, leading to billions in losses annually. Our goal is to build a predictive model that can accurately classify transactions as either fraudulent or legitimate using historical transaction data.
 
 Dataset
-We are using the Credit Card Fraud Detection Dataset 2023, which contains approximately 1 million credit card transactions with both fraud and non-fraud cases.
+We are using the Credit Card Fraud Data dataset, provided by Neha Roychoudhury on Kaggle. The dataset includes both fraudulent and non-fraudulent transactions and is designed to help train machine learning models for fraud detection.
 
-Dataset Source: Kaggle Credit Card Fraud Detection Dataset 2023: https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023
-Number of records: ~1 million transactions.
-Number of features: 31 columns, including anonymized variables (V1 to V28), Amount, and Class (fraud or not fraud).
+Dataset Source: Kaggle Credit Card Fraud Data
+Number of Records: Approximately 280,000 transactions.
+Number of Features: 31 columns, including transaction amount, time, and 28 anonymized features. The target column (Class) indicates whether a transaction is fraudulent (1) or legitimate (0).
 Objective
-The main goal is to predict whether a given transaction is fraudulent or not by training various machine learning models. This project also explores the features that are most indicative of fraud.
+The objective of this project is to predict whether a given credit card transaction is fraudulent using a machine learning model. Additionally, we aim to identify the key features that are most indicative of fraudulent activity.
 
 Technologies Used
 Python: For data analysis, preprocessing, and model building.
 Pandas: For data cleaning, handling, and manipulation.
-Scikit-learn: For training machine learning models and evaluating performance.
-XGBoost: For boosting model accuracy and improving classification performance.
-Matplotlib/Plotly: For visualizing key data insights and model evaluation metrics.
-SQL/MongoDB: For potential database storage of transaction data.
+Scikit-learn: For training and evaluating machine learning models.
+XGBoost/Random Forest: For improving model performance.
+Matplotlib/Plotly: For visualizing key insights and model performance.
+SQL/MongoDB: For any potential data storage and querying.
