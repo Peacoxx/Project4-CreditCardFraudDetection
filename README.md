@@ -7,7 +7,7 @@ This project focuses on detecting fraudulent credit card transactions using mach
 Dataset
 We are using the Credit Card Fraud Detection Dataset 2023, which contains approximately 1 million credit card transactions with both fraud and non-fraud cases.
 
-Dataset Source: Kaggle Credit Card Fraud Detection Dataset 2023
+Dataset Source: Kaggle Credit Card Fraud Detection Dataset 2023: https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023
 Number of records: ~1 million transactions.
 Number of features: 31 columns, including anonymized variables (V1 to V28), Amount, and Class (fraud or not fraud).
 Objective
