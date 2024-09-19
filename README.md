@@ -15,8 +15,14 @@ Technologies Used
 Python: For data analysis, preprocessing, and model building.
 Pandas: For data cleaning, handling, and manipulation.
 Scikit-learn: For training and evaluating machine learning models.
-XGBoost/Random Forest: For improving model performance.
+Random Forest: For improving model performance.
 Matplotlib/Plotly: For visualizing key insights and model performance.
 SQL/MongoDB: For any potential data storage and querying.
+
+Tableau Graphs
 [
 ](https://public.tableau.com/shared/MW9NTW2HS?:display_count=n&:origin=viz_share_link)
+https://public.tableau.com/app/profile/pamala.cox/viz/Project4_17255838218450/MAPVISUAL?publish=yes
+
+Disclaimer:
+This project was developed with the assistance of ChatGPT and Xpert Learning Assistant, as well as tutor, Fred Logan. All of which were used for coding guidance, data analysis, and machine learning implementation. The suggestions provided by these AI tools helped us in identifying optimal coding practices, debugging, and understanding complex concepts related to data science and machine learning.
